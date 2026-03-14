@@ -1,10 +1,10 @@
 ﻿{
     "latest":  {
                    "date":  "2026-03-14",
-                   "changelog":  "Implemented versioning system for releases",
-                   "url":  "firmware/v1.0.1/dfu_application.zip",
-                   "version":  "1.0.1",
-                   "size":  187259
+                   "changelog":  "Increased version for testing purposes",
+                   "url":  "firmware/v1.0.2/dfu_application.zip",
+                   "version":  "1.0.2",
+                   "size":  216599
                },
     "product":  "PDU_Gen2"
 }
