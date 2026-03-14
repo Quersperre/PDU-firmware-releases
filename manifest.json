@@ -1,10 +1,10 @@
-{
-  "product": "PDU_Gen2",
-  "latest": {
-    "version": "0.0.0",
-    "date": "2026-03-14",
-    "url": "firmware/v0.0.0/app_update.bin",
-    "size": 0,
-    "changelog": "Initial placeholder"
-  }
+﻿{
+    "latest":  {
+                   "date":  "2026-03-14",
+                   "changelog":  "Initial production release",
+                   "url":  "firmware/v1.0.0/dfu_application.zip",
+                   "version":  "1.0.0",
+                   "size":  187260
+               },
+    "product":  "PDU_Gen2"
 }
