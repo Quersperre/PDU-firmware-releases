@@ -1,0 +1,65 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842]
+   /Contents 4 0 R /Resources << /Font << /F1 5 0 R >> >> >>
+endobj
+
+4 0 obj
+<< /Length 440 >>
+stream
+BT
+/F1 24 Tf
+50 780 Td
+(PDU Gen2 - Instructions) Tj
+0 -40 Td
+/F1 14 Tf
+(Quick Start Guide) Tj
+0 -30 Td
+/F1 11 Tf
+(1. Power on the PDU Gen2 device.) Tj
+0 -20 Td
+(2. Open the PDU Gen2 app on your phone.) Tj
+0 -20 Td
+(3. Enable Bluetooth and scan for devices.) Tj
+0 -20 Td
+(4. Connect to "PDU_Gen2" and enter the passkey.) Tj
+0 -20 Td
+(5. Use the app to control outputs and monitor inputs.) Tj
+0 -40 Td
+/F1 14 Tf
+(Firmware Update \(FOTA\)) Tj
+0 -25 Td
+/F1 11 Tf
+(The app will notify you when a new firmware is available.) Tj
+0 -20 Td
+(Follow the on-screen instructions to update.) Tj
+ET
+endstream
+endobj
+
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000266 00000 n 
+0000000758 00000 n 
+
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+839
+%%EOF
