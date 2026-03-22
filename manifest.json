@@ -12,6 +12,11 @@
                      "name":  "Instructions",
                      "url":  "docs/instructions.pdf",
                      "version":  "1.0"
+                 },
+                 {
+                     "name":  "Vehicle_Instructions",
+                     "url":  "docs/Vehicle_Instructions.pdf",
+                     "version":  "1.0"
                  }
              ]
 }
