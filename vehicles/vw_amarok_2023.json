@@ -1,0 +1,153 @@
+{
+    "name": "VW Amarok IQ.Matrix 2023 TEST",
+    "can_bus_config": {
+        "baudrate_data_kbps": "500K",
+        "baudrate_normal_kbps": "500K",
+        "fd_enable": false,
+        "trcv_delay_offset_ms": 140
+    },
+    "can_message_config": {
+        "0x3C3": {
+            "can_id_format": "standard",
+            "dlc": 8,
+            "brs": false,
+            "timeout_ms": 5000
+        },
+        "0x3B3": {
+            "can_id_format": "standard",
+            "dlc": 8,
+            "brs": false,
+            "timeout_ms": 5000
+        },
+        "0x3D8": {
+            "can_id_format": "standard",
+            "dlc": 8,
+            "brs": false,
+            "timeout_ms": 5000
+        },
+        "0x203": {
+            "can_id_format": "standard",
+            "dlc": 8,
+            "brs": false,
+            "timeout_ms": 5000
+        },
+		"0x83": {
+            "can_id_format": "standard",
+            "dlc": 8,
+            "brs": false,
+            "timeout_ms": 5000
+        }
+    },
+    "rules": [
+        {
+            "description": "Low Beam Lights",
+            "mask"       : ["0x00", "0x00", "0x00", "0x00", "0xC8", "0x00", "0x00", "0x00" ],
+            "range_low"  : ["0x00", "0x00", "0x00", "0x00", "0xC8", "0x00", "0x00", "0x00" ],
+            "range_high" : ["0x00", "0x00", "0x00", "0x00", "0xC8", "0x00", "0x00", "0x00" ],
+            "message_id" : "0x3C3"
+        },
+        {
+            "description": "High Beam Lights COND1",
+            "mask"       : ["0x02", "0x00", "0x00", "0x00", "0x00", "0x00", "0x00", "0x00" ],
+            "range_low"  : ["0x02", "0x00", "0x00", "0x00", "0x00", "0x00", "0x00", "0x00" ],
+            "range_high" : ["0x02", "0x00", "0x00", "0x00", "0x00", "0x00", "0x00", "0x00" ],
+            "message_id" : "0x3C3"
+        },
+        {
+            "description": "High Beam Lights COND2",
+            "mask"     : ["0x00", "0x00", "0x00", "0x00", "0x00", "0x04", "0x00", "0x00" ],
+            "range_low" : ["0x00", "0x00", "0x00", "0x00", "0x00", "0x04", "0x00", "0x00" ],
+            "range_high"  : ["0x00", "0x00", "0x00", "0x00", "0x00", "0x04", "0x00", "0x00" ],
+            "message_id": "0x83"
+        },
+        {
+            "description": "High Beam Lights COND3",
+            "mask"     : ["0x00", "0x00", "0x00", "0x00", "0x00", "0x00", "0x00", "0x0F" ],
+            "range_low" : ["0x00", "0x00", "0x00", "0x00", "0x00", "0x00", "0x00", "0x0B" ],
+            "range_high"  : ["0x00", "0x00", "0x00", "0x00", "0x00", "0x00", "0x00", "0x0B" ],
+            "message_id": "0x3D8"
+        },
+        {
+            "description": "Position Lights",
+            "mask"     : ["0x04", "0x00", "0x00", "0x00", "0x00", "0x00", "0x00", "0x00" ],
+            "range_low" : ["0x04", "0x00", "0x00", "0x00", "0x00", "0x00", "0x00", "0x00" ],
+            "range_high"  : ["0x04", "0x00", "0x00", "0x00", "0x00", "0x00", "0x00", "0x00" ],
+            "message_id": "0x3B3"
+        },
+        {
+            "description": "Brake Lights",
+            "mask"     : ["0x00", "0x01", "0x00", "0x00", "0x00", "0x00", "0x00", "0x00" ],
+            "range_low" : ["0x00", "0x01", "0x00", "0x00", "0x00", "0x00", "0x00", "0x00" ],
+            "range_high"  : ["0x00", "0x01", "0x00", "0x00", "0x00", "0x00", "0x00", "0x00" ],
+            "message_id": "0x3C3"
+        },
+        {
+            "description": "Reverse Lights",
+            "mask"     : ["0x00", "0x02", "0x00", "0x00", "0x00", "0x00", "0x00", "0x00" ],
+            "range_low" : ["0x00", "0x02", "0x00", "0x00", "0x00", "0x00", "0x00", "0x00" ],
+            "range_high"  : ["0x00", "0x02", "0x00", "0x00", "0x00", "0x00", "0x00", "0x00" ],
+            "message_id": "0x3C3"
+        },
+        {
+            "description": "Ignition",
+            "mask"     : ["0x40", "0x00", "0x00", "0x00", "0x00", "0x00", "0x00", "0x00" ],
+            "range_low" : ["0x40", "0x00", "0x00", "0x00", "0x00", "0x00", "0x00", "0x00" ],
+            "range_high"  : ["0x40", "0x00", "0x00", "0x00", "0x00", "0x00", "0x00", "0x00" ],
+            "message_id": "0x203"
+        },
+        {
+            "description": "Hazard Lights",
+            "mask"     : ["0x00", "0x00", "0x00", "0x00", "0x00", "0x00", "0x00", "0x01" ],
+            "range_low" : ["0x00", "0x00", "0x00", "0x00", "0x00", "0x00", "0x00", "0x01" ],
+            "range_high"  : ["0x00", "0x00", "0x00", "0x00", "0x00", "0x00", "0x00", "0x01" ],
+            "message_id": "0x3D8"
+        },
+        {
+            "description": "Rear Fog Lights",
+            "mask"     : ["0x02", "0x00", "0x00", "0x00", "0x00", "0x00", "0x00", "0x00" ],
+            "range_low" : ["0x02", "0x00", "0x00", "0x00", "0x00", "0x00", "0x00", "0x00" ],
+            "range_high"  : ["0x02", "0x00", "0x00", "0x00", "0x00", "0x00", "0x00", "0x00" ],
+            "message_id": "0x3B3"
+        },
+        {
+            "description": "Front Fog Lights",
+            "mask"     : ["0x01", "0x00", "0x00", "0x00", "0x00", "0x00", "0x00", "0x00" ],
+            "range_low" : ["0x01", "0x00", "0x00", "0x00", "0x00", "0x00", "0x00", "0x00" ],
+            "range_high"  : ["0x01", "0x00", "0x00", "0x00", "0x00", "0x00", "0x00", "0x00" ],
+            "message_id": "0x3B3"
+        }
+    ],
+    "functionality_control": {
+        "Low Beam Lights" : {
+            "rule": 0
+        },
+        "High Beam Lights" : {
+            "or": [
+			    {"and": [{"rule": 1}, {"rule": 2}]},
+				
+				{"and": [{"rule": 1}, {"rule": 3}]}
+            ]
+        },
+        "Position Lights" : {
+            "rule": 4
+        },
+        "Brake Lights" : {
+            "rule": 5
+        },
+        "Reverse Lights" : {
+            "rule": 6
+        },
+        "Ignition" : {
+            "rule": 7
+        },
+        "Hazard Lights" : {
+            "rule": 8
+        },
+        "Rear Fog Lights" : {
+            "rule": 9
+        },
+        "Front Fog Lights" : {
+            "rule": 10
+        }
+    }
+}

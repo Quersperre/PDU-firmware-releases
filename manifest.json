@@ -18,5 +18,6 @@
                      "url":  "docs/Vehicle_Instructions.pdf",
                      "version":  "1.0"
                  }
-             ]
+             ],
+    "vehicles_index":  "vehicles/index.json"
 }
