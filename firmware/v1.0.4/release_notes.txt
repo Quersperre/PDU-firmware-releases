@@ -1,0 +1,4 @@
+﻿Version: 1.0.4
+Date:    2026-04-11
+
+Increased version 1.0.4 - Vehicle config/Device Name/Flic Button

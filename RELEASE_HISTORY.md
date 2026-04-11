@@ -1,5 +1,8 @@
 ﻿# PDU_Gen2 Firmware Release History
 
+## v1.0.4 â€” 2026-04-11
+Increased version 1.0.4 - Vehicle config/Device Name/Flic Button
+
 ## v1.0.3 â€” 2026-03-15
 Increased version for testing purposes
 

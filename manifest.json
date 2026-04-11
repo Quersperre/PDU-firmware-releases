@@ -1,23 +1,10 @@
 ﻿{
     "latest":  {
-                   "date":  "2026-03-15",
-                   "changelog":  "Increased version for testing purposes",
-                   "url":  "firmware/v1.0.3/dfu_application.zip",
-                   "version":  "1.0.3",
-                   "size":  216607
+                   "date":  "2026-04-11",
+                   "changelog":  "Increased version 1.0.4 - Vehicle config/Device Name/Flic Button",
+                   "url":  "firmware/v1.0.4/dfu_application.zip",
+                   "version":  "1.0.4",
+                   "size":  225503
                },
-    "product":  "PDU_Gen2",
-    "docs":  [
-                 {
-                     "name":  "Instructions",
-                     "url":  "docs/instructions.pdf",
-                     "version":  "1.0"
-                 },
-                 {
-                     "name":  "Vehicle_Instructions",
-                     "url":  "docs/Vehicle_Instructions.pdf",
-                     "version":  "1.0"
-                 }
-             ],
-    "vehicles_index":  "vehicles/index.json"
+    "product":  "PDU_Gen2"
 }
