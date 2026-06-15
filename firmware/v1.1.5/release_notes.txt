@@ -1,0 +1,4 @@
+﻿Version: 1.1.5
+Date:    2026-06-15
+
+Release v1.1.5 -FOTA re-enabled for bl54l15
