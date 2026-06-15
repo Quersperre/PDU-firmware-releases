@@ -1,0 +1,4 @@
+﻿Version: 1.1.4
+Date:    2026-06-15
+
+Release v1.1.4 -FOTA sync
