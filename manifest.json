@@ -1,10 +1,10 @@
 ﻿{
     "latest":  {
                    "date":  "2026-06-15",
-                   "changelog":  "Release v1.1.4 -FOTA sync",
+                   "changelog":  "Release v1.1.2 -FOTA re-enabled for bl54l15",
                    "url":  "firmware/v1.1.4/dfu_application.zip",
                    "version":  "1.1.4",
-                   "size":  189975
+                   "size":  311016
                },
     "product":  "PDU_Gen2"
 }

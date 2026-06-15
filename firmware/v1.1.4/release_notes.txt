@@ -1,4 +1,4 @@
 ﻿Version: 1.1.4
 Date:    2026-06-15
 
-Release v1.1.4 -FOTA sync
+Release v1.1.2 -FOTA re-enabled for bl54l15
