@@ -6,5 +6,19 @@
                    "version":  "1.1.6",
                    "size":  311000
                },
+    "product":  "PDU_Gen2",
+    "docs":  [
+                 {
+                     "name":  "Instructions",
+                     "url":  "docs/instructions.pdf",
+                     "version":  "1.0"
+                 },
+                 {
+                     "name":  "Vehicle_Instructions",
+                     "url":  "docs/Vehicle_Instructions.pdf",
+                     "version":  "1.0"
+                 }
+             ],
+    "vehicles_index":  "vehicles/index.json"
     "product":  "PDU_Gen2"
 }
