@@ -1,0 +1,4 @@
+﻿Version: 1.1.6
+Date:    2026-06-16
+
+Release v1.1.6 -Flic trigger-channel flicker fix

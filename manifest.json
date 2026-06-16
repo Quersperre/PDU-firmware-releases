@@ -1,24 +1,10 @@
 ﻿{
     "latest":  {
-                   "date":  "2026-06-15",
-                   "changelog":  "Release v1.1.5 -FOTA re-enabled for bl54l15",
-                   "url":  "firmware/v1.1.5/dfu_application.zip",
-                   "version":  "1.1.5",
-                   "size":  311017
+                   "date":  "2026-06-16",
+                   "changelog":  "Release v1.1.6 -Flic trigger-channel flicker fix",
+                   "url":  "firmware/v1.1.6/dfu_application.zip",
+                   "version":  "1.1.6",
+                   "size":  311000
                },
-    "product":  "PDU_Gen2",
-    "docs":  [
-                 {
-                     "name":  "Instructions",
-                     "url":  "docs/instructions.pdf",
-                     "version":  "1.0"
-                 },
-                 {
-                     "name":  "Vehicle_Instructions",
-                     "url":  "docs/Vehicle_Instructions.pdf",
-                     "version":  "1.0"
-                 }
-             ],
-    "vehicles_index":  "vehicles/index.json"
     "product":  "PDU_Gen2"
 }

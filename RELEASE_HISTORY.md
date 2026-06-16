@@ -1,5 +1,8 @@
 ﻿# PDU_Gen2 Firmware Release History
 
+## v1.1.6 â€” 2026-06-16
+Release v1.1.6 -Flic trigger-channel flicker fix
+
 ## v1.1.5 â€” 2026-06-15
 Release v1.1.5 -FOTA re-enabled for bl54l15
 
