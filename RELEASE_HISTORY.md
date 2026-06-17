@@ -1,5 +1,8 @@
 ﻿# PDU_Gen2 Firmware Release History
 
+## v1.1.7 â€” 2026-06-17
+Release v1.1.7 - Enable current readign and protections
+
 ## v1.1.6 â€” 2026-06-16
 Release v1.1.6 -Flic trigger-channel flicker fix
 

@@ -1,0 +1,4 @@
+﻿Version: 1.1.7
+Date:    2026-06-17
+
+Release v1.1.7 - Enable current readign and protections
