@@ -1,5 +1,8 @@
 ﻿# PDU_Gen2 Firmware Release History
 
+## v1.1.8 â€” 2026-06-17
+Release v1.1.8 - Set current protection
+
 ## v1.1.7 â€” 2026-06-17
 Release v1.1.7 - Enable current readign and protections
 

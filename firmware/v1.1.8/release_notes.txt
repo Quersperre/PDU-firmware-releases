@@ -1,0 +1,4 @@
+﻿Version: 1.1.8
+Date:    2026-06-17
+
+Release v1.1.8 - Set current protection
