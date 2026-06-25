@@ -1,0 +1,4 @@
+﻿Version: 1.1.9
+Date:    2026-06-25
+
+Release v1.1.9 - CAN implemention-first draft

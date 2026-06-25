@@ -1,5 +1,8 @@
 ﻿# PDU_Gen2 Firmware Release History
 
+## v1.1.9 â€” 2026-06-25
+Release v1.1.9 - CAN implemention-first draft
+
 ## v1.1.8 â€” 2026-06-17
 Release v1.1.8 - Set current protection
 
